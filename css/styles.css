@@ -37,7 +37,7 @@ header {
   
   .nav li a:hover,
   .nav li a.active {
-    background-color: #800000;
+    background-color: #26fe00;
     border-radius: 5px;
   }
 main {
@@ -49,7 +49,7 @@ h1 {
   text-align: center;
   margin-top: 2rem;
   font-size: 3rem;
-  color: #a00202;
+  color: #26fe00;
 }
 
 footer {
