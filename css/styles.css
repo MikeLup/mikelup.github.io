@@ -45,6 +45,12 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #a00202;
+}
 
 footer {
     background-color: #333;

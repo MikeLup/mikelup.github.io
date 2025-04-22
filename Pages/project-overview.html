@@ -7,16 +7,15 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar" style="background-color: #a00202; padding: 1rem; position: sticky; top: 0;">
-      <ul class="nav">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="Pages/project-overview.html">Project Overview</a></li>
-        <li><a href="Pages/design-process.html">Design Process</a></li>
-        <li><a href="Pages/prototype.html">Prototyping</a></li>
-        <li><a href="Pages/evaluation.html">Heuristic Evaluation</a></li>
-        <li><a href="Pages/reflection.html">Reflection</a></li>
-      </ul>
-      </nav>
+    <div id="navbar"></div>
+
+    <script>
+      fetch("navbar.html")
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
 
 
     <h1>Project Overview</h1>
