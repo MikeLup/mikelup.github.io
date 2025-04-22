@@ -1,0 +1,96 @@
+/* Copy this into your styles.css file */
+
+/*
+File Name: styles.css
+Purpose: This file defines the styling for a website or web application, including layout, typography, color schemes, and interactive element styles. 
+It ensures consistent design and enhances user experience through accessible styles.
+Version 1.0
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: dm-serif-display-regular;
+}
+
+body {
+    background-color: #FAF7F0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.submit-btn {
+    background-color: white;
+    border: 1px solid #333;
+    /* Black border */
+    color: #333;
+    /* Black text */
+}
+
+.submit-btn:hover {
+    background-color: #f8f9fa;
+    /* Light grey background on hover */
+    border-color: #333;
+    /* Ensure border stays black on hover */
+    color: #333;
+    /* Ensure text stays black on hover */
+}
+
+.cancel-btn {
+    background-color: #333;
+    border: 1px solid white;
+    /* Black border */
+    color: white;
+    /* Black text */
+}
+
+.cancel-btn:hover {
+    background-color: white;
+    /* Light grey background on hover */
+    border-color: #333;
+    /* Ensure border stays black on hover */
+    color: #333;
+    /* Ensure text stays black on hover */
+}
