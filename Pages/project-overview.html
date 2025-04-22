@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Design Portfolio</title>
-  <link rel="stylesheet" href="../
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
 <body>
     <div id="navbar"></div>
 
-    <script>
-      fetch("../navbar.html")
-        .then(res => res.text())
-        .then(data => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-    </script>
+  <script>
+    fetch("../navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+      });
+  </script>
 
 
     <h1>Project Overview</h1>
