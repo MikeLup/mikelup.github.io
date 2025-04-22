@@ -63,17 +63,14 @@ footer {
 }
 
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   max-width: 400px;
   margin: 2rem auto;
-  text-align: center;
 }
 
 .image-grid img {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
-  margin: 0 auto;
+  width: 45%;
 }
